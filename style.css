@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 html {
   font-size: 10px;
   background: url('./background.jpg') bottom center;
@@ -49,4 +51,11 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.note {
+  font-family: "Dancing Script", sans-serif;
+  color: #ffc600;
+  position: absolute;
+  bottom: 20px;
 }
